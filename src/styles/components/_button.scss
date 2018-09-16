@@ -1,0 +1,27 @@
+.button {
+    padding: $s-size;
+    color: white;
+    border: none;
+    font-size: $font-size-large;
+    font-weight: 300;
+    display: inline-block;
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        line-height: 1;
+    }
+}
+
+.button--blue {
+    background-color: $blue;
+}
+
+.button--link { 
+    background: transparent;
+}
+
+.button--secondary {
+    margin-top: $s-size;
+    background-color: #888888;
+}
